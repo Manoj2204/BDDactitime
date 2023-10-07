@@ -7,6 +7,7 @@ And User enter the username as "admin" and password as "manager"
 And Click on login button
 Then Home page title should be "actiTIME - Enter Time-Track"
 And Click on logout button
+And close browser
 
 @smoke
 Scenario Outline: Sucessfully login with valid credential With DDT
@@ -16,6 +17,7 @@ And User enter the username as "<username>" and password as "<password>"
 And Click on login button
 Then Home page title should be "<title>"
 And Click on logout button
+And close browser
 
 Examples:
 |url|username|password|title|

@@ -66,6 +66,11 @@ public class stepdef
 	    lp.getlogoutBtn().click();
 		
 	}
+	@Then("close browser")
+	public void close_browser() 
+	{
+	    driver.close();
+	}
 
 
 
