@@ -69,7 +69,7 @@ public class stepdef
 	@Then("close browser")
 	public void close_browser() 
 	{
-	    driver.quit();
+	    driver.close();
 	}
 
 
